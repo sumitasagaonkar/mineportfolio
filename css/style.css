@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Roboto+Slab:wght@300;400;500&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Roboto Slab', serif;
+    
+    
+}
+/*banner section*/
+.banner{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.banner-img
+{
+    background-image: url(bg1.jpg);
+    width: 100%;height:100%;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+.banner-sub
+{
+   margin: 15%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 200px;
+    background-color: whitesmoke;
+    text-align: center;
+    font-size: x-large;
+    /* width: 100%;*/
+
+   
+}
+.banner-sub h6{
+    font-family: 'Dosis', sans-serif;
+
+}
+/*About Section */
+.about-container
+{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.about-sub
+{
+    height: auto;
+    width: 100%;
+    background-color:white;
+    padding: 30px;
+    color:black;
+    letter-spacing: 0.5;
+    text-align: center; 
+    text-decoration: bold;
+    line-height: 1.5rem;
+}
+.about-img
+{
+    display: flex;
+    flex-direction: row;
+}
+.about-img1
+{
+    height: 50vh;
+    width: 100%;
+    background-image: url(q3.jpg);
+    background-size: cover;
+}
+/*End of About Section*/
+/*Qualification section */
+.edu-container
+{
+    display: flex;
+    flex-direction: column;
+}
+.edu-sub
+{
+    width:100%;
+    height: 60vh;
+}
+.edu-sub-main
+{
+    height: 50vh;
+    padding: 20px; 
+    padding-bottom: 30px;
+}
+.edu-sub-main-img
+{
+    height: 35vh;
+    width:100%;
+}
+.edu-sub-main-content
+{
+    text-align: center;
+    
+}
+/*End of qualification section*/
+/*Project */
+.project-container
+{
+    display: flex;
+    flex-direction: column;
+}
+.project-main
+{
+    display: flex;
+    flex-direction: column;
+    margin-top:50px;
+    margin-bottom: 50px;
+    height: 110vh;
+  
+}
+.project-main-img
+{
+    height: 30vh;
+    width:100%;
+    
+}
+.project-main-img1
+{
+    height: 30vh;
+    width:100%;
+    
+}
+.project-main-content
+{
+    height: 50vh;
+    width:100%;
+    padding:50px ;
+   line-height: 1.6rem;
+   margin-bottom: 70px;
+}
+.project-main-content h4{
+    margin: 5px;
+    margin-left: 0;
+}
+/*divider*/
+.divider
+{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+   
+}
+.divider-sub
+{
+    background-image: url(f1.jpg);
+    background-size: cover;
+    height: 50vh;
+    background-position: center;
+}
+.divider-sub1
+{
+    background-image: url(f2.jpg);
+    background-size: cover;
+    height: 50vh;
+     background-position: center;
+}
+.divider-sub2
+{
+    background-image: url(f3.jpg);
+    background-size: cover;
+    height: 50vh;
+    background-position: center;
+}
+/*end */
+.cert-container
+{
+    display: flex;
+    flex-direction: column;
+    
+    height: 50vh;
+    width: 100%;
+    font-family: 'Dosis', sans-serif;
+}
+
+.sub1
+{
+    
+    height: 50vh;
+    width: 100%;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;  
+    line-height: 1.5em; 
+}
+.sub0
+{
+    
+    height: 20vh;
+    
+    width: 100%;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;  
+    
+    margin-top: 0;
+}
+.sub2
+{
+    
+  display: none;
+}
+
+.sub-a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    padding-left: 30px;
+}
+.ach-container
+{
+    display: flex;
+    flex-direction: column;
+}
+.line-hor
+{
+    display: none;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.contact-img
+{
+    background-image: url(bg1.jpg);
+    width: 100%;height:100%;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+.contact-sub
+{
+    margin: 15%;
+    padding:50px;
+    margin-top:220px;
+    background-color: whitesmoke;
+   text-align: center;
+   font-size: x-large;
+
+   
+}
+.banner-sub h6{
+    font-family: 'Dosis', sans-serif;
+
+}
+@media only screen and (min-width:1200px)
+{
+        .banner-sub
+        {
+            font-size: xx-large;
+            margin: 200px;
+          
+            background-color: white;
+         
+            text-align: center;
+        }
+        .edu-container{
+            flex-direction: row;
+            margin-top: 60px;
+        }
+        .edu-sub-main-img{
+            height: 35vh;
+        }
+        .project-main-img1
+      {
+    height: 60vh;
+    width:100%;
+    
+      }
+        .about-sub{
+            
+            padding-left: 200px;
+            padding-right: 200px;
+            height: 40vh;
+            
+
+        }
+        .about-img1
+        {
+            height: 60vh;
+        }
+        .edu-sub-main{
+            padding: 20px; 
+        }
+        .project-main{
+            flex-direction: row;
+            height: 70vh;
+        }
+        .divider
+        {
+            margin-bottom: 120px;
+        }
+        .cert-container
+        {
+            flex-direction: row;
+            width: 100%;
+            height: 50vh;
+        }
+        .line-hor
+{
+    display: flex;height: 15vh;background-color: slategray;margin-bottom: 100px;
+}
+.sub2{
+
+    height: 100vh;
+    width: 100%;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;  
+    line-height: 1.5em; 
+}
+        
+}
